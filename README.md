@@ -47,12 +47,12 @@ protoc --micro_out=. --go_out=. greeter.proto
 go run services/hello.go
 ```
 
-** 7. Check services
+**7. Check services**
 ```
 micro list services
 ```
 
-**7. Process client service**
+**8. Process client service**
 ```
 go run clients/helloclient.go
 ```
